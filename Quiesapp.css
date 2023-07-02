@@ -1,0 +1,74 @@
+body {
+	background: #848484;
+}
+
+.wrapper {
+	background: #ffffff;
+    width: 8
+    0%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.wrapper h1 {
+        text-align: center;
+        font-size: 25px;
+        color: rgb(38, 0, 255);
+        font-weight: 600;
+        border-bottom: 1px solid #333;
+        padding-bottom: 30px;
+
+}
+
+.wrapper #question {
+    text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+	color:#7f076b;
+}
+
+.buttons {
+	margin-top: 20px;
+}
+
+#btn0,#btn1,#btn2,#btn3 {
+	background-color: #ffffff;
+	width: 100%;
+	font-size: 20px;
+	color: #000000;
+	border: 1px solid #ff0000;
+	padding: 8px;
+	margin: 10px 40px 10px 0;
+	border-radius: 50px;
+    cursor: pointer;
+
+}
+#btn0:hover,#btn1:hover,#btn2:hover,#btn3:hover {
+	background: rgba(143, 8, 113, 0.719);
+    color: #ffffff;
+	cursor: pointer;
+}
+
+#btn0:focus,#btn1:focus,#btn2:focus,#btn3:focus {
+	outline:0;
+}
+
+#progress {
+	font-size: 18px;
+	color: #2f2f2f;
+}
+
+.progress-number {
+	padding: 2px;
+	border: 1px solid #040000;
+	background-color: rgb(17, 0, 128);
+	height: 25px;
+	width: 25px;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 50%;
+	color: #ffffff; 
+	display: inline-block;
+}
